@@ -1,0 +1,15 @@
+# Dépendances Node.js
+/node_modules
+
+# Sortie de build de Vite (Frontend)
+/dist
+
+# Sortie de build de Tauri (Rust/Binaire)
+/src-tauri/target
+
+# Logs et fichiers système
+*.log
+.DS_Store
+
+# Fichiers de secrets (à ne jamais commiter)
+.env*
