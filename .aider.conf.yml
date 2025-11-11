@@ -1,0 +1,32 @@
+# Configuration Aider pour SovereignAI Assistant
+# Optimisé pour Gemini API gratuit
+
+# Modèle par défaut (gratuit, puissant)
+model: gemini/gemini-2.0-flash-exp
+
+# Commits automatiques après chaque modification
+auto-commits: true
+
+# Permet les commits même avec des changements non stagés
+dirty-commits: true
+
+# Attribue les commits à Aider dans le message
+attribute-commits: true
+
+# Style de message de commit (conventional commits)
+git-commit-message-style: conventional
+
+# Active le mode verbose pour debug
+# verbose: true
+
+# Fichiers à ignorer par défaut
+# aiderignore:
+#   - node_modules/
+#   - dist/
+#   - build/
+#   - .git/
+
+# Options avancées
+# edit-format: whole  # ou 'diff' pour les gros fichiers
+# map-tokens: 1024    # Tokens pour la carte du projet
+# cache-prompts: true # Active le cache Gemini
